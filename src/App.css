@@ -16,3 +16,38 @@ h1 {
   margin: 10px 5px;
 }
 
+.button-icon {
+  cursor: pointer;
+  font-size: 0.75em;
+}
+
+.button-icon--domino-show {
+  font-size: 1.25em;
+  padding: 3px;
+}
+
+.domino-wrapper {
+  display:inline-block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Featured {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.999);
+  z-index: 10000;
+  top: -200vh;
+  left: 0;
+  transition: 200ms;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Featured.Featured--show {
+  top:0;
+  opacity: 1;
+}

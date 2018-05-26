@@ -22,6 +22,12 @@
     transition: 200ms;
 }
 
+.domino.domino--large .domino__side {
+    width: 60px;
+    height: 60px;
+    font-size: 3em;
+}
+
 .domino__side:nth-child(2) {
     border-bottom: 0;
 }
