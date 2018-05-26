@@ -1,0 +1,51 @@
+.domino {
+    border: 2px solid black;
+    display: inline-block;
+    box-shadow: 2px 2px 2px black;
+    background: #fefee0;
+    transition: 200ms;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.domino__side {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    transition: 200ms;
+}
+
+.domino__side:nth-child(2) {
+    border-bottom: 0;
+}
+
+.domino__dot {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.domino__dot::before {
+    content: " ";
+    display: inline-block;
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.domino--hidden {
+    transform: rotate(180deg);    
+}
+
+.domino.domino--hidden .domino__side{
+    opacity:0;
+}

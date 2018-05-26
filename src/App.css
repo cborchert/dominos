@@ -1,0 +1,18 @@
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.Hand {
+  margin-bottom: 40px;
+}
+
+.Discard > div {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px 5px;
+}
+
