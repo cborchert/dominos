@@ -18,11 +18,12 @@ h1 {
 
 .button-icon {
   cursor: pointer;
-  font-size: 0.75em;
+  font-size: 0.5em;
+  color: #34495E;
 }
 
 .button-icon--domino-show {
-  font-size: 1.25em;
+  font-size: 0.9em;
   padding: 3px;
 }
 

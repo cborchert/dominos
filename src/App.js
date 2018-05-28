@@ -135,7 +135,7 @@ class App extends Component {
                     this.featureDomino(domino.id);
                   }}
                 >
-                  👁️‍🗨️
+                  view
                 </div>
                 <Domino
                   key={i}
@@ -157,7 +157,7 @@ class App extends Component {
               className="button-icon"
               onClick={this.resetDominos.bind(this)}
             >
-              🔄
+              reset all
             </span>
           </h1>
           <div>
@@ -169,7 +169,7 @@ class App extends Component {
                     this.featureDomino(domino.id);
                   }}
                 >
-                  👁️‍🗨️
+                  view
                 </div>
                 <Domino
                   key={i}
@@ -191,7 +191,7 @@ class App extends Component {
               className="button-icon"
               onClick={this.clearDiscard.bind(this)}
             >
-              💣
+              clear discard
             </span>
           </h1>
           <div>
